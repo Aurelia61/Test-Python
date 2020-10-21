@@ -35,9 +35,9 @@ pumpkin_canva.grid(row=1, column=1)
 
 
 
-# # ajout du bouton/image
-# button = Button(frame, image=image, bg='#dee5dc', bd=0, relief=SUNKEN, command=add_cookie)
-# button.pack()
+# ajout du bouton/image
+button = Button(frame, image=image, bg='#dee5dc', bd=0, relief=SUNKEN, command=add_cookie)
+button.pack()
 
 # ajout de la frame au centre
 frame.pack(expand=YES)

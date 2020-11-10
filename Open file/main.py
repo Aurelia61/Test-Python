@@ -25,6 +25,10 @@ if __name__ == "__main__":
     print(open_file("my_file"))
     # regarder le fichier qui est dans vsc pour voir les mots sur chaque ligne
 
+#! récupérer les lignes d'un fichier
+#! list_line = file.readlines()    Pour lecture
+#! file.writelines(list_lines)   Pour modifier / écrire / écraser chaque élémént sur une ligne
+
 
 
 ## this code works, but no argument
